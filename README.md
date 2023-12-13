@@ -1,2 +1,4 @@
 # tokenpaymaster-goerli
 GSN token paymaster using Uniswap
+
+Deployed at: 0x332b8e2f51c912f0ab95b2005d24e2ed7860bcf5edfd6b157ffefa8fae7683a3
