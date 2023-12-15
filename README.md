@@ -1,4 +1,11 @@
-# tokenpaymaster-goerli
-GSN token paymaster using Uniswap
+<img src="./logo.svg">
 
-Deployed at: 0x332b8e2f51c912f0ab95b2005d24e2ed7860bcf5edfd6b157ffefa8fae7683a3
+[![Join our Discord server!](https://invidget.switchblade.xyz/b5Jk9kWcPG)](http://discord.gg/b5Jk9kWcPG)
+
+# GSN + Ethers + Vite + React
+
+## This is the smallest possible working sample of GSN integration.
+
+### Open Developer Tools for logs, connect MetaMask account and select Goerli network to make a GSN transaction.
+
+#### Join our Discord if you have any questions.

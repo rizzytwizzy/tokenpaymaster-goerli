@@ -1,20 +1,39 @@
 {
-  "name": "tokenpaymastergoerli",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vite-project-orig",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "hardhat": "^2.19.2"
+    "@opengsn/contracts": "^3.0.0-beta.6",
+    "@opengsn/paymasters": "^3.0.0-beta.6",
+    "browserify": "^17.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "^5.7.2"
+    "@opengsn/cli": "^3.0.0-beta.6",
+    "@opengsn/dev": "^3.0.0-beta.6",
+    "@opengsn/provider": "^3.0.0-beta.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "ethers": "^6.7.0",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
   }
 }
