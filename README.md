@@ -1,11 +1,8 @@
 <img src="./logo.svg">
+# TransferGSN
 
-[![Join our Discord server!](https://invidget.switchblade.xyz/b5Jk9kWcPG)](http://discord.gg/b5Jk9kWcPG)
-
-# GSN + Ethers + Vite + React
-
-## This is the smallest possible working sample of GSN integration.
+## This is the smallest possible working sample of using GSN to to pay gas in ERC20.
 
 ### Open Developer Tools for logs, connect MetaMask account and select Goerli network to make a GSN transaction.
 
-#### Join our Discord if you have any questions.
+#### Idea for project was provided from: https://github.com/Divide-By-0/ideas-for-projects-people-would-use
